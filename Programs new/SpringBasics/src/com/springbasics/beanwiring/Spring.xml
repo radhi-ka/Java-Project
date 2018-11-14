@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+	"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+	
+	<beans>
+
+	<!--BY Name
+	<bean id="bookprop" class="com.springbasics.beanwiring.Book" >
+	<property name="title" value="Looks for the name mentioned in the class and searches it at bean id"></property></bean>
+	<bean id= "studentobj" class="com.springbasics.beanwiring.Student" autowire="byName" >
+	<property name="name" value="Keerthi"></property>
+	</bean> -->
+	
+	
+	<!-- BY Type
+	<bean id="Book" class="com.springbasics.beanwiring.Book" >
+	<property name="title" value="Looks for Type mentioned in student class and search the type at ID"></property></bean>
+	<bean id= "studentobj1" class="com.springbasics.beanwiring.Student" autowire="byType" >
+	<property name="name" value="Keerthi"></property>
+	</bean>
+	 -->
+	 
+	 <bean id="Book" class="com.springbasics.beanwiring.Book" autowire="byName">
+	 <property name="title" value="Keerthi"></property>
+	 </bean>
+	<bean id= "studentobj1" class="com.springbasics.beanwiring.Student" autowire="constructor" />
+	
+	
+	
+	</beans>

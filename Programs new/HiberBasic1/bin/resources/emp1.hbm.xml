@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+   
+    <class name="beans.Emp1" table="ep" schema="root">
+    <id name="emp1id" column="epid"></id>
+    <property name="emp1name" column="epname"></property>
+    <property name="emp1sal" column="epsal"></property>
+   
+    </class>
+    </hibernate-mapping>

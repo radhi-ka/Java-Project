@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+  
+ <hibernate-mapping>
+ <class name="myhibernate.Player" table="atp">
+ <id name="pranking" column="pranking"/>
+ <property name="pcountry" column="pcountry"></property>
+ <property name="pname" column="pname"></property>
+ 
+ 
+ </class>
+ </hibernate-mapping>
